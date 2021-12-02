@@ -1,0 +1,54 @@
+
+.addPost {
+    margin: 20px 0 20px 100px;
+    width: 70%;
+}
+
+.addPost h4 {
+    color: #06B2BB;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.addPostForm {
+    _border: 1px solid red;
+    margin: 10px 0;
+}
+
+.pfLabel{
+    margin: 5px 0;
+    color: #7c7a7a;
+    font-weight: 500;
+}
+.pfLabel span{
+    font-size: 10px;
+    color: #06B2BB;
+}
+.pfInput{
+    color: rgb(169, 168, 168);
+}
+.pfLabelAdd{
+    border: 2px solid rgba(6, 178, 187, 0.29);
+    padding: 10px 5px;
+    width: 100%;
+}
+.pfLabelAddText{
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    color: rgb(169, 168, 168) !important;
+}
+
+.postUserData {
+    margin: 20px 0;
+}
+.addUsersAvatarToPost img{
+    width: 70px;
+}
+.userAvatarTitle{
+    color: #06B2BB;
+    font-weight: 600;
+    margin-top: -45px;
+    margin-left: 75px;
+}
+

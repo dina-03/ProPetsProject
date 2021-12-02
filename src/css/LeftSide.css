@@ -1,0 +1,43 @@
+@import "Home.css";
+
+.leftSide{
+    width: 250px;
+    height: 1200px;
+    background-color: #06B2BB;
+    margin-top: 60px;
+}
+.leftMenu, .leftMenuService{
+    margin-left: 30%;
+}
+.leftMenuService h3{
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.48);
+}
+.linkMenu button{
+    background-color: transparent !important;
+    width: 100%;
+    padding: 5px 0;
+}
+.linkMenu:hover, .linkMenu:active {
+    background-color: #faf9f9;
+    color: #06B2BB !important;
+    margin-left: -75px;
+    margin-right: 30px;
+    border-radius: 0 18px 18px 0;
+    padding: 0 0 0 75px;
+    cursor: pointer;
+}
+.linkMenu button:hover{
+    color: #06B2BB;
+}
+.linkMenuActive{
+    background-color: #faf9f9;
+    color: #06B2BB !important;
+}
+
+
+

@@ -1,0 +1,203 @@
+@import "Home.css";
+
+.post {
+    width: 80%;
+    margin: 10px 0 10px 100px;
+}
+
+.postHeader {
+    width: 70%;
+    color: #06B2BB;
+    border-bottom: 1px solid rgba(169, 168, 168, 0.46);
+    padding: 10px 0;
+}
+
+.postHeader p {
+    color: darkgray;
+    font-size: 12px;
+    margin: 10px 20px;
+
+}
+
+.postHeader span {
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.postHeaderIMG img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.postHeaderAuthor {
+    margin-left: 55px;
+    margin-top: -45px;
+}
+
+.postHeaderAuthor h3 {
+    color: #06B2BB9A;
+    font-weight: 500;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+.postHeaderAuthor p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.fullPost {
+    width: 80%;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 100px;
+}
+
+.headerFullPost {
+    margin: 20px 0;
+}
+
+.fpHeaderIMG {
+    width: 200px;
+    color: #06B2BB;
+    margin: -10px 0 5px 20px;
+}
+
+.fpHeaderIMG img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.fpHeaderAuthor {
+    color: #06B2BB9A;
+}
+
+.fpHeaderAuthor h3 {
+    margin: -50px 0 5px 75px;
+    font-weight: 600;
+}
+
+.fpHeaderAuthor p {
+    color: darkgray;
+    font-size: 12px;
+    margin-left: 77px;
+}
+
+.fullPostContent {
+    margin: 10px 20px;
+}
+
+.fullPostContent img {
+    width: 300px;
+}
+
+.fullPostFooter {
+    width: 75%;
+    margin: 10px;
+}
+
+.fullPostFooter h4 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #047f85;
+}
+
+.fullPostFooter p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.fpPostText {
+
+}
+
+.postBox {
+
+}
+
+.postContent {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.postContent img {
+    width: 300px;
+}
+
+.postFooter {
+    margin: 10px 0 5px 0;
+    color: black;
+}
+
+.postFooter span {
+    margin-left: -1px;
+}
+
+.postFooter span:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.postFooter h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #03b4b9;
+}
+
+.likeBoxPost p {
+    width: 90%;
+    color: #06B2BB;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.fpLikeBoxPost {
+    width: 82%;
+    margin: 20px 160px 10px 0;
+    color: #06B2BB;
+    text-align: right;
+}
+
+.fpLikeBoxPost p {
+    color: #06B2BB;
+}
+
+.likeBtn {
+    width: 120px;
+    height: 30px;
+    background-color: #06B2BB;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+}
+
+.likeBtn:hover {
+    background-color: rgba(6, 178, 187, 0.52);
+    color: black;
+    cursor: pointer;
+}
+textarea {
+    width: 80%;
+    margin: 10px 0;
+    border: 2px solid rgba(6, 178, 187, 0.45);
+    padding: 25px 0 0 10px;
+    vertical-align: middle;
+    color: rgba(169, 168, 168, 0.89);
+}
+.space{
+    height: 15px;
+}
+.serviceActiveLink{
+    background-color: white;
+    color: black;
+}
+li{
+    list-style: none;
+}

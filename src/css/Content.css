@@ -1,0 +1,17 @@
+@import "Home.css";
+
+.content{
+    width: 70%;
+    min-width: 600px;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    margin-top: 60px;
+}
+.navigationHeader{
+    box-shadow: 2px 2px 15px rgba(10, 10, 10, 0.46);
+    margin-top: 5px;
+}
+.navManPage{
+ border: 1px solid red;
+}

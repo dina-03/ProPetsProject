@@ -1,0 +1,66 @@
+@import "Home.css";
+
+.addComment {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.addFormComment {
+    margin: 10px auto;
+}
+
+.footerComment {
+    color: #06B2BB;
+    margin-right: 20%;
+    text-align: right;
+}
+
+.userComment {
+    width: 90%;
+    border-bottom: 1px solid #eeeeee;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.userComment span{
+    font-size: 12px;
+}
+.userComment b{
+    font-weight: 600;
+}
+.userComment p{
+    font-size: 12px;
+}
+
+.comments {
+    width: 85%;
+    color: #06B2BB;
+    margin-left: 20px;
+}
+
+.comments h4 {
+    border-bottom: 1px solid rgba(6, 178, 187, 0.68);
+    padding: 5px 0;
+    width: 90%;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.addCommentBtn {
+    background-color: #06B2BB;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.addCommentBtn:hover {
+    background-color: rgba(6, 178, 187, 0.62);
+    color: black;
+    cursor: pointer;
+}
+
+.commentsPost {
+    color: black;
+}

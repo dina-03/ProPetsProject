@@ -1,0 +1,155 @@
+@import "Home.css";
+
+.userForm {
+    width: 60%;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0 auto;
+    _border: 1px solid #eee;
+}
+
+.userFormTitle {
+    width: 100%;
+    border-bottom: 1px solid #a9a8a8;
+    margin: 20px 0;
+    font-size: 12px;
+    color: #06B2BB;
+    padding: 10px 0;
+}
+
+.userFormTitle h2 {
+    font-weight: 500;
+}
+
+.userFormTitle b {
+    font-weight: 700;
+}
+
+.myProfileTitle {
+    width: 100%;
+    background-color: #06B2BB;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.userFormHeader {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.userFormAvatar {
+    padding-bottom: 10px;
+    _border: 1px solid black;
+}
+
+.avatar {
+    margin-right: 40px;
+    color: #06B2BB;
+}
+.formUserContent img{
+    width: 50px;
+}
+
+.fullName {
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+    padding-top: 20px;
+    color: #06B2BB;
+}
+
+.editBtn {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #06B2BB;
+    padding-bottom: 20px;
+}
+
+/*Form user design*/
+.profileFormUser {
+    width: 100%;
+}
+
+.formUserContent {
+    display: flex;
+    justify-content: start;
+    margin: 15px 0;
+}
+.userFormAvatar img{
+    width: 70px;
+}
+
+.label {
+    font-size: 14px;
+    margin-right: 20px;
+    width: 15%;
+}
+
+.inputForm {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #06B2BB;
+}
+
+.inputForm input {
+    border: 0;
+}
+
+/*Form pet design*/
+
+.formPetContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.petContentText {
+    width: 85%;
+}
+
+.petContentPhoto {
+    width: 15%;
+    text-align: right;
+    margin-top: 20px;
+}
+.petPhoto{
+    color: #06B2BB;
+}
+
+.petPhotoAvatar img{
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.btnSaveBox {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    justify-items: center;
+    vertical-align: middle;
+    margin-left: 10%;
+    padding: 5px 0;
+}
+
+.btnSaveBox button {
+    width: 150px !important;
+    height: 35px;
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+}
+.inputForm button{
+    background-color: #06B2BB;
+    border: 0;
+    width: 100px;
+    height: 30px;
+}
+.btnFile input[type='file' i]{
+    background-color: transparent !important;
+    border: 1px solid #06B2BB;
+}

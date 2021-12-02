@@ -1,0 +1,274 @@
+@import "Home.css";
+
+.lostContent {
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.lostContent h4 {
+    color: #06B2BB;
+    font-weight: 500;
+}
+
+.lostContentTitle {
+    width: 80%;
+    border-bottom: 1px solid #adacac;
+    padding: 10px 0;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.lostContentTitle b {
+    text-transform: uppercase;
+}
+.lostContent p{
+    margin: 10px 0;
+}
+.lostContentBox{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.lostBoxContainer{
+    display: flex;
+    justify-content: start;
+}
+
+.lostBox {
+    width: 200px;
+    margin: 10px 15px;
+    padding: 20px;
+    box-shadow: 1px 3px 10px rgba(169, 168, 168, 0.11);
+}
+.lostBox:hover{
+    box-shadow: 2px 4px 10px rgba(169, 168, 168, 0.35);
+    transition: 0.2s ease;
+}
+
+.lostHeader {
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.lostNick {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.lostAddress {
+    color: #06B2BB;
+    font-size: 12px;
+}
+
+.lostAddress p {
+    margin-left: 20px;
+    margin-top: -15px;
+    color: black;
+}
+
+.lostContainer {
+    margin: 5px 0;
+    height: 170px;
+}
+.lostContainer img{
+    width: 150px;
+}
+
+.lostFooter {
+    font-size: 12px;
+    color: #06B2BB;
+}
+.lostFooter span{
+    color: #7c7a7a;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#lostFullInfoBox {
+    width: 80%;
+    margin: 20px 0 10px 50px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.lfiHeader {
+    color: #06B2BB;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(169, 168, 168, 0.49);
+}
+.lfiHeaderTitle{
+    margin-left: 10px;
+}
+.lfiHeaderTitle b{
+    text-transform: uppercase;
+}
+
+.lfiHeaderTitleNick{
+    text-transform: none;
+    color: #7c7a7a;
+    font-weight: 600;
+    font-size: 20px;
+}
+.lfiBody{
+    display: flex;
+    justify-content: start;
+}
+
+.lfiBodyLeft img{
+    text-align: center;
+    width: 250px;
+}
+.lfiBodyRight{
+    margin-left: 25px;
+}
+.lfiBodyRightHeader{
+    border-bottom: 1px solid rgba(169, 168, 168, 0.55);
+    margin-bottom: 15px;
+}
+.lfiBodyRightHeader h3{
+    color: #06B2BB;
+    font-weight: 500;
+}
+.lfiBodyRightHeader p{
+    color: #b7b6b6;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.lfiBodyRightMiddle{
+    font-size: 14px;
+}
+.lfiBodyRightMiddle span{
+    color: #06B2BB;
+}
+.lfiBodyRightMiddle p{
+    margin-bottom: 10px;
+}
+.lfiDescription{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.lfiDescription span{
+    color: #06B2BB;
+}
+.lfiFooter{
+    margin: 20px 0;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.lfiFooter span{
+    color: #06B2BB;
+}
+
+.addLostFormContent {
+    width: 95%;
+    margin: 20px 0 10px 10px;
+}
+
+.lostFormTitle {
+    border-bottom: 1px solid rgba(169, 168, 168, 0.51);
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.lostFormTitle h2 {
+    color: #06B2BB;
+    font-weight: 500;
+}
+
+.addFormPost {
+    width: 100%;
+}
+
+.formBody {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.formFirstColumn {
+    width: 650px;
+}
+
+.formSecondColumn {
+    width: 200px;
+}
+
+.itemBoxForm {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+    /*border: 1px solid yellow;*/
+}
+
+.leftItemText {
+    width: 20%;
+    text-align: right;
+    margin-right: 10px;
+}
+.leftItemText span{
+    font-size: 10px;
+    color: #06B2BB;
+}
+.rightItemForm {
+    width: 80%;
+}
+
+.rightItemFormDown {
+    width: 80%;
+    margin-top: -20px;
+}
+
+.formItemFooter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.up {
+    margin-top: 20px;
+}
+
+.down {
+    margin-top: 100px;
+}
+
+.downBtn {
+    background-color: transparent;
+    color: #06B2BB;
+    margin-top: 20px;
+}
+
+#btn-1 {
+    border: 0;
+}
+
+.btnFile {
+    border: 0;
+    background-color: transparent;
+}
+
+.publishBtn {
+    width: 100%;
+    margin-left: 80%;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+}
+
+input, select {
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid #06B2BB;
+}
+
+textarea {
+    margin-top: -15px;
+}
+.grayColor{
+    font-size: 12px;
+    font-weight: 500;
+    color: #a9a8a8;
+}

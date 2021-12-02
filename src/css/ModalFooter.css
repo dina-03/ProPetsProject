@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap');
+
+.modalFooter{
+    display: flex;
+    justify-content: end;
+}
+.btnCancel, .btnSubmit, .btnRegistration{
+    width: 115px;
+    height: 30px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btnSubmit, .btnRegistration{
+    background-color: #06B2BB;
+    color: white;
+    border: 0;
+    margin-right: 53px;
+    padding-top: 3px;
+}
+.btnRegistration{
+    padding: 0 5px;
+}
+.btnSubmit{
+    padding-left: 20px;
+    padding-top: 6px;
+}
+.btnSubmit:hover, .btnRegistration:hover{
+    background-color: rgba(6, 178, 187, 0.51);
+    color: black;
+}
+
+.passwordRuleText{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: darkgray;
+    width: 95%;
+    text-align: left;
+    margin-left: 50px;
+}
+.passwordRuleText p{
+    width: 40%;
+    margin-top: 15px;
+}
+.btnCancel{
+    background-color: transparent;
+    border: 1px solid #06B2BB;
+    color: #06B2BB;
+    margin-right: 10px;
+    padding-left: 29px;
+    padding-top: -5px !important;
+}
+.btnCancel:hover{
+    background-color: #fa5456;
+    color: black;
+    border: 1px solid white;
+}

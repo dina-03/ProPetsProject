@@ -1,0 +1,56 @@
+@import "Home.css";
+
+.rightSide{
+    width: 20%;
+    height: 1200px;
+    background-color: #06B2BB;
+    color: #ffffff;
+    margin-top: 60px;
+}
+.rightUser{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: start;
+    margin: 20px 0 20px 5px;
+    padding-left: 10px;
+    border-top: 1px solid rgba(175, 241, 243, 0.55);
+    border-bottom: 1px solid rgba(175, 241, 243, 0.55);
+}
+.userProfileBtn{
+    color: #faf9f9;
+    display: flex;
+    justify-content: start;
+}
+.usersAvatar{
+ margin:10px 0;
+}
+.usersAvatar img{
+    width: 70px;
+}
+
+.userProfileBtn h4{
+    color: white;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.logoutBtn{
+    color: #faf9f9 !important;
+    padding-left: 20px;
+}
+.userNotDef h4{
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 20px 10px;
+    padding-left: 15px;
+}
+.userNotDef{
+    color: white;
+    height: 1200px;
+    text-align: center;
+    background-color: #06B2BB;
+    margin-top: 60px;
+}
